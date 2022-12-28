@@ -21,14 +21,14 @@
 
 .country{
     background-color: green;
-    width: 150px;
+    width: 120px;
     padding: 10px ;
     position: relative;
 }
 .state-list{
     position: absolute;
     display: none;
-    left: 150px;
+    left: 120px;
     top: 5px;
     background-color: blue;
 }
@@ -38,13 +38,13 @@
 }
 .state{
     position: relative;
-    width: 150px;
+    width: 120px;
     padding: 10px;
 }
 .city-list{
     display: none;
     position: absolute;
-    left: 150px;
+    left: 120px;
     padding: 10px 20px;
     top: 5px;
     background-color: rebeccapurple;
