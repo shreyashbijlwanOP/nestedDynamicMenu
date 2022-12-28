@@ -1,0 +1,17 @@
+ <nav>
+      <div id="root" >
+        <nav class="menu">
+          <div class="coutry-list">
+            <div class="coutry">
+              <div class="state-list">
+                <div class="states">
+                  <div class="city-list">
+                    <div class="cities"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>

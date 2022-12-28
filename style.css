@@ -1,0 +1,58 @@
+/* #menu=> #coutry-list => country => state-list => state =>city-list=>city*/
+*{
+    margin: 0;padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+#menu{
+    background-color: red;
+    padding: 20px;
+    
+    position: relative;
+}
+#coutry-list{
+    display: none;
+    position: absolute;
+}
+
+#menu:hover #coutry-list{
+    display: block;
+}
+
+.country{
+    background-color: green;
+    width: 150px;
+    padding: 10px ;
+    position: relative;
+}
+.state-list{
+    position: absolute;
+    display: none;
+    left: 150px;
+    top: 5px;
+    background-color: blue;
+}
+.country:hover .state-list{
+    display: block;
+    z-index: 100;
+}
+.state{
+    position: relative;
+    width: 150px;
+    padding: 10px;
+}
+.city-list{
+    display: none;
+    position: absolute;
+    left: 150px;
+    padding: 10px 20px;
+    top: 5px;
+    background-color: rebeccapurple;
+}
+.state:hover .city-list{
+    display: block;
+}
+.city{
+    width: max-content;
+    padding: 5px;
+}
